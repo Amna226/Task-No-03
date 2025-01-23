@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment no 3</title>
+</head>
+<hr>
+<h1>Business Loan Application</h1>
+<p>Personal Information</p>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<body>
+    <form>
+        <legend>Name of Application</legend>
+        <br>
+        <label>prefix</label>
+<input type="text" required="required">
+<label>First Name</label>
+<input type="text" required="required">
+<label>Middle Name</label>
+<input type="text" required="required">
+<Label>Last Name</Label>
+<input type="text" required="required">
+<br>
+<br>
+<br>
+<br>
+<label>E-mail of applicant</label>
+<input type="text" placeholder="ex: myname@example.com" required="required">
+<label>Phone number of Applicant</label>
+<input type="text"placeholder="(000) 000-0000" required="required">
+<br>
+<br>
+<br>
+<br>
+<label>Mobile Phone number of Applicant</label>
+<input type="text" placeholder="(000) 000-0000" required="required">
+<label>Fax Number of applicant</label>
+<input type="text" placeholder="(000) 000-0000" required="required">
+<br>
+<br>
+<br>
+<label>Address of applicant</label>
+<br>
+<br>
+<input type="text" style="width: 500px; required="required" >
+<br>
+<br>
+<label>Straet Address</label>
+<br>
+<br>
+<input type="text" style="width: 300px;" required="required">
+<br>
+<br>
+<label>Streat Address in 2 line</label>
+<br>
+<br>
+<label>City</label>
+<input type="text" style="width: 300px; required="required">
+<lable>State/province</lable>
+<input type="text" style="width: 300px; required="required">
+<br>
+<br>
+<label>Postal / Zip code</label>
+<input type="text" style="width: 300px; required="required">
+<br>
+<br>
+<label>Date of Birth of Applicatio</label>
+<br>
+<br>
+<label>Month</label>
+<select>
+    <option>please select a month</option>
+    <option>January</option>
+    <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+</select>
+<label>Day</label>
+<select>
+    <option>Please select a day</option>
+    <option>Monday</option>
+    <option>Tuesday</option>
+    <option>Wednesday</option>
+    <option>Thursday</option>
+    <option>Friday</option>
+    <option>Saturday</option>
+    <option>Sunday</option>
+</select>
+<label>Year</label>
+<select>
+    <option>please Select a year</option>
+    <option>2000</option>
+    <option>2001</option>
+    <option>2002</option>
+    <option>2003</option>
+    <option>2004</option>
+    <option>2004</option>
+    <option>2005</option>
+    <option>2006</option>
+    <option>2007</option>
+    <option>2008</option>
+    <option>2009</option>
+    <option>2010</option>
+    <option>2011</option>
+    <option>2012</option>
+    <option>2013</option>
+</select>
+<br>
+<br>
+<br>
+<label>Applying as</label>
+<br>
+<input type="radio">
+<label>Sole Propriet</label>
+<input type="radio">
+<label>Partnership</label>
+<input type="radio">
+<label>Corporation</label>
+<br>
+<br>
+<button>Submite</button>
+    </form>
+</body>
+</html>
